@@ -64,34 +64,35 @@ btn.addEventListener("click",(e)=>{
         let div1=document.querySelector(".merge");
           let h1=document.createElement("h1");
           div1.appendChild(h1);
-        if(word="Sun"){
+        if(word=="Sun"){
           console.log("sunday");
           h1.innerText="Sunday";   
         }
-        else if(word="Mon"){
+        else if(word=="Mon"){
           console.log("Monday");
           h1.innerText="Monday";
         }
-        else if(word="Tues"){
+        else if(word=="Tues"){
           console.log("Tuesday");
           h1.innerText="Tuesday";
         }
-        else if(word="Wed"){
+        else if(word=="Wed"){
           console.log("Wednesday");
           h1.innerText="Wednesday";
         }
-        else if(word="Thurs"){
+        else if(word=="Thurs"){
           console.log("Thursday");
           h1.innerText="Thursday";
         }
-        else if(word="Fri"){
+        else if(word=="Fri"){
           console.log("Friday");
           h1.innerText="Friday";
         }
-        else if(word="Sat"){
+        else if(word=="Sat"){
           console.log("Saturday");
           h1.innerText="Saturday";
         }
         else{
           console.log("Welcome")
+
         }
